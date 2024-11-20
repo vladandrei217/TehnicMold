@@ -49,8 +49,18 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 
-
+	
 <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+	<style>
+		.navbar-nav .nav-link,
+		.navbar-nav .dropdown-item {
+    		font-size: 200px; 
+		}
+        .navbar-nav .nav-item:hover .nav-link,
+        .navbar-nav .dropdown-item:hover {
+            color: #1c5cbc;
+        }
+    </style>
   <div class="container">
     <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -60,13 +70,16 @@ FACEBOOK: https://www.facebook.com/themefisher
 	<div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item @@index">
-				<a class="nav-link" href="index.html">Acasă</a>
+				<a class="nav-link" href="index.html" style="font-size: 1rem; ">Acasă</a>
 			  </li>
-			<li class="nav-item @@about">
-				<a class="nav-link" href="CentruService.html">Centru Service</a>
+			  <li class="nav-item @@desprenoi">
+				<a class="nav-link" href="DespreNoi.html" style="font-size: 1rem; ">Despre noi</a>
+			  </li>
+			  <li class="nav-item @@servicii">
+				<a class="nav-link" href="Servicii.html" style="font-size: 1rem; ">Servicii</a>
 			  </li>
 			  <li class="nav-item dropdown @@pages">
-				<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Produse
+				<a class="nav-link dropdown-toggle" href="#" style="font-size: 1rem; " data-toggle="dropdown">Produse
 				  <span><i class="ti-angle-down"></i></span>
 				</a>
 				<!-- Dropdown list -->
@@ -79,21 +92,18 @@ FACEBOOK: https://www.facebook.com/themefisher
 				  <li><a class="dropdown-item @@team" href="team.html">EXAflow</a></li>
 				</ul>
 			  </li>
-			<li class="nav-item @@desprenoi">
-				<a class="nav-link" href="DespreNoi.html">Despre noi</a>
-			  </li>
-			  <li class="nav-item @@servicii">
-				<a class="nav-link" href="Servicii.html">Servicii</a>
+			<li class="nav-item @@about">
+				<a class="nav-link" href="CentruService.html" style="font-size: 1rem; ">Centru Service</a>
 			  </li>
 			<li class="nav-item @@contact">
-			  <a class="nav-link" href="contact.html">Contact</a>
+			  <a class="nav-link" href="contact.html" style="font-size: 1rem; ">Contact</a>
 			</li>
-			<li class="nav-item @@contact" style="align-self: center;">
-				<a href="https://www.linkedin.com/company/tehnic-mold-trade-srl/?originalSubdomain=ro"><i class="ti-linkedin"></i></a>
+			<li class="nav-item @@contact" style="align-self: center; margin-left: 5px;" >
+				<a href="https://www.linkedin.com/company/tehnic-mold-trade-srl/?originalSubdomain=ro" ><i class="ti-linkedin" style="font-size: 1rem; "></i></a>
 			  </li>
-			<li class="nav-item dropdown @@pages">
-				<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-					<img style="max-width: 20px;" src="images/flags/ro.png" alt="Romanian Flag"> RO
+			<li class="nav-item dropdown @@pages" style="margin-left: 2px;">
+				<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"style="font-size: 1rem; " >
+					<img style="max-width: 25px;" src="images/flags/ro.png"  alt="Romanian Flag"> RO
 				  <span><i class="ti-angle-down"></i></span>
 				</a>
 				<ul class="dropdown-menu">
